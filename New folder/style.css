@@ -2,22 +2,43 @@ h1{
     font-size: 50px;
     margin: 0%;
 }
- .name-highlight{
-    color: rgb(255, 149, 0);
+h2{
+   font-size: 40px;
+}
+p{
+   color: dimgray;
+}
+.orange-highlight{
+    color: rgb(203, 156, 27);
  }
- .half-width{
+.half-width{
     width: 40%;
     float: left;
     margin-left: 4%;
+
     padding-left: 2%;
  }
  .half-width img{
     width: 100%;
  }
  .top-banner{
-    background-image: url("images/top-banner.png");
+    background-image: url("top-banner.png");
     background-repeat: no-repeat;
  }
  .section{
     height: 500px;
+    padding-bottom: 150px;
+ }
+ .link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 700;
+ }
+ .dream-area{
+   background-image: url("dream-bg.png");
+   background-repeat: no-repeat;
+   background-position: right;
  }
